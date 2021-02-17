@@ -7,8 +7,8 @@ namespace StudentApl
 {
     internal class StudentContext : DbContext
     {
-        public DbSet<Student> students { get; set; }
-        public DbSet<Course> courses { get; set; }
+        public DbSet<Student> Student { get; set; }
+        public DbSet<Course> Course { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

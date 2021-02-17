@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StudentApl
+﻿namespace StudentApl
 {
-    internal class Student
+    public class Student
     {
-        public int studentID { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int age { get; set; }
-        public float points { get; set; }
+        public int Age { get; set; }
+        public int Points { get; set; }
     }
 }
